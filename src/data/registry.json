@@ -1,0 +1,5099 @@
+{
+  "registryVersion": "2026.10.20-1",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "id": "ebc-2024-burzotta",
+      "title": "Burzotta F, Louvard Y, Lassen JF, et al. Percutaneous coronary intervention for bifurcation coronary lesions using optimised angiographic guidance: the 18th consensus document from the European Bifurcation Club. EuroIntervention 2024;20:e915–e926. doi:10.4244/EIJ-D-24-00160 (Table 3, compliance charts for common DES platforms)",
+      "publisher": "EuroIntervention",
+      "url": "https://doi.org/10.4244/EIJ-D-24-00160",
+      "sourceType": "peer-reviewed-publication",
+      "revision": "e-edition August 2024",
+      "accessed": "2026-10-19",
+      "notes": "Table values are manufacturers' compliance-chart data reported by the EBC; supplied by the project owner as a PDF."
+    },
+    {
+      "id": "abbott-skypoint-ordering",
+      "title": "Ordering Information for XIENCE Skypoint Stent",
+      "publisher": "Abbott",
+      "url": "https://www.cardiovascular.abbott/int/en/hcp/products/percutaneous-coronary-intervention/xience-family/xience-skypoint/ordering-information.html",
+      "sourceType": "manufacturer-web-page",
+      "revision": "MAT-2107570 v3.0 (specification section)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "medtronic-onyx-us",
+      "title": "Resolute Onyx drug-eluting stent — product specifications",
+      "publisher": "Medtronic",
+      "url": "https://medtronic.com/us-en/healthcare-professionals/products/cardiovascular/stents/resolute-onyx-des.html",
+      "sourceType": "manufacturer-web-page",
+      "revision": null,
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "bsc-synergy-spec-2015",
+      "title": "SYNERGY Everolimus-Eluting Platinum Chromium Coronary Stent System — Product Spec Sheet",
+      "publisher": "Boston Scientific",
+      "url": "https://www.bostonscientific.com/content/dam/bostonscientific/Interventional%20Cardiology/portfolio-group/Stents/Synergy/legacy-resource-center/SYNERGY-Product-Spec-Sheet.pdf",
+      "sourceType": "manufacturer-document",
+      "revision": "IC-334902-AA SEP2015",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "biotronik-orsiro-mission-2023",
+      "title": "Orsiro Mission brochure",
+      "publisher": "BIOTRONIK AG",
+      "url": "https://www.biotronik.com/sites/default/files/2023-12/Orsiro_Mission_Brochure_446240_E_EN_Aug_2023_DV%5B1%5D_0.pdf",
+      "sourceType": "manufacturer-document",
+      "revision": "Aug 2023 (document number not legible in extracted text)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "smt-supraflex-cruz-ce-2019",
+      "title": "SMT Announces CE Mark for the Most Deliverable Stent Supraflex Cruz",
+      "publisher": "TCTMD (manufacturer press release)",
+      "url": "https://www.tctmd.com/news/smt-announces-ce-mark-most-deliverable-stent-supraflex-cruz",
+      "sourceType": "manufacturer-press-release",
+      "revision": "11 July 2019",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "terumo-tansei-page",
+      "title": "Ultimaster Tansei Sirolimus Eluting Coronary Stent System",
+      "publisher": "Terumo Europe",
+      "url": "https://terumo-europe.com/en-emea/products/ultimaster%E2%84%A2-tansei%E2%84%A2-sirolimus-eluting-coronary-stent-system",
+      "sourceType": "manufacturer-web-page",
+      "revision": null,
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "terumo-nagomi-page",
+      "title": "Ultimaster Nagomi Sirolimus Eluting Coronary Stent System",
+      "publisher": "Terumo Europe",
+      "url": "https://www.terumo-europe.com/en-emea/products/ultimaster-nagomi%E2%84%A2-sirolimus-eluting-coronary-stent-system",
+      "sourceType": "manufacturer-web-page",
+      "revision": null,
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "solaci-ultimaster-2018",
+      "title": "EuroPCR 2018 | Ultimaster Registry: Difference in Strut Thickness",
+      "publisher": "SOLACI",
+      "url": "https://solaci.org/en/2018/05/31/europcr-2018-ultimaster-registry-difference-in-strut-thickness/",
+      "sourceType": "secondary-report",
+      "revision": "31 May 2018",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "menown-2021-jic",
+      "title": "Menown IBA et al. Thin Strut CoCr Biodegradable Polymer Biolimus A9-Eluting Stents versus Thicker Strut Stainless Steel Biodegradable Polymer Biolimus A9-Eluting Stents: Two-Year Clinical Outcomes. J Interv Cardiol 2021. doi:10.1155/2021/6654515",
+      "publisher": "Journal of Interventional Cardiology",
+      "url": "https://doi.org/10.1155/2021/6654515",
+      "sourceType": "peer-reviewed-publication",
+      "revision": "Published 1 April 2021",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "oner-2021-ejmr",
+      "title": "Öner A, Rosam P, Borowski F, et al. Side-branch expansion capacity of contemporary DES platforms. Eur J Med Res 2021;26:121. doi:10.1186/s40001-021-00595-7",
+      "publisher": "European Journal of Medical Research (BMC)",
+      "url": "https://doi.org/10.1186/s40001-021-00595-7",
+      "sourceType": "peer-reviewed-publication",
+      "revision": "Published 2021 (accepted 27 Sep 2021)",
+      "accessed": "2026-10-20",
+      "notes": "In vitro bench study of 3.0 mm Orsiro, XIENCE Sierra, Resolute Integrity, Promus PREMIER Select and Supraflex Cruz. Max ID values in Fig. 2 are quoted from the IFUs. PDF supplied by the project owner."
+    },
+    {
+      "id": "foin-2013-eurointervention",
+      "title": "Foin N, Sen S, Allegria E, et al. Maximal expansion capacity with current DES platforms: a critical factor for stent selection in the treatment of left main bifurcations? EuroIntervention 2013;8:1315–1325. doi:10.4244/EIJV8I11A200",
+      "publisher": "EuroIntervention",
+      "url": "https://doi.org/10.4244/EIJV8I11A200",
+      "sourceType": "peer-reviewed-publication",
+      "revision": "Published online ahead of print October 2012",
+      "accessed": "2026-10-20",
+      "notes": "Micro-CT bench study of PROMUS Element, TAXUS Liberté, XIENCE PRIME, Resolute Integrity, BioMatrix Flex and CYPHER SELECT workhorse designs. PDF supplied by the project owner."
+    },
+    {
+      "id": "mehmedbegovic-2023-rcm",
+      "title": "Mehmedbegović Z, Jelić D, Mladenović Đ, Stanković G. DES Selection for Left Main and Coronary Bifurcation Stenting. Rev Cardiovasc Med 2023;24(9):266. doi:10.31083/j.rcm2409266",
+      "publisher": "Reviews in Cardiovascular Medicine (IMR Press)",
+      "url": "https://doi.org/10.31083/j.rcm2409266",
+      "sourceType": "peer-reviewed-publication",
+      "revision": "Published 21 September 2023",
+      "accessed": "2026-10-20",
+      "notes": "Narrative review. Table 1 tabulates design data and bench results from other studies; it is a secondary source. PDF supplied by the project owner."
+    },
+    {
+      "id": "biosensors-biomatrix-alpha-brochure",
+      "title": "BioMatrix Alpha drug-eluting coronary stent system — manufacturer brochure specification panels (SV and MV models)",
+      "publisher": "Biosensors International (images supplied by the project owner)",
+      "url": "https://claude.ai/code/project/chan_011RWjkQFPkYQFL4XSebBxR2",
+      "sourceType": "manufacturer-document",
+      "revision": "Undated brochure images; uploaded 2026-10-20 (project files uploads/hearth/ab7b3054…, 6e9124d4…)",
+      "accessed": "2026-10-20",
+      "notes": "Two photographed brochure panels supplied in the project chat; the original brochure document, number and date were not available. URL points to the project where the images were supplied."
+    }
+  ],
+  "devices": [
+    {
+      "id": "abbott-xience-skypoint",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-19",
+      "manufacturer": "Abbott",
+      "family": "XIENCE",
+      "model": "XIENCE Skypoint",
+      "generation": "XIENCE Skypoint (data not transferred from other XIENCE generations)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          2,
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.25,
+          3.5,
+          4,
+          4.5,
+          5
+        ],
+        "range": null,
+        "sourceIds": [
+          "abbott-skypoint-ordering"
+        ]
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          8,
+          12,
+          15,
+          18,
+          23,
+          28,
+          33,
+          38,
+          48
+        ],
+        "range": null,
+        "sourceIds": [
+          "abbott-skypoint-ordering"
+        ],
+        "notes": "Not every length is offered in every diameter; confirm the specific size in the current ordering table."
+      },
+      "lengthRestrictions": [
+        {
+          "diameters": [
+            2,
+            2.25,
+            3.25
+          ],
+          "maxLength": 38,
+          "sourceIds": [
+            "abbott-skypoint-ordering"
+          ]
+        },
+        {
+          "diameters": [
+            4.5,
+            5
+          ],
+          "minLength": 12,
+          "maxLength": 33,
+          "sourceIds": [
+            "abbott-skypoint-ordering"
+          ]
+        }
+      ],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 81,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2,
+            5
+          ],
+          "sourceIds": [
+            "abbott-skypoint-ordering"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Stated as 0.0032\" (81 µm)."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Connector arrangement not documented in the accessed source."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "L-605 cobalt chromium",
+        "sourceIds": [
+          "abbott-skypoint-ordering"
+        ],
+        "notes": null
+      },
+      "nominalPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 9,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2,
+            2.5
+          ],
+          "sourceIds": [
+            "abbott-skypoint-ordering"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 12,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2.75,
+            5
+          ],
+          "sourceIds": [
+            "abbott-skypoint-ordering"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 16,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2,
+            5
+          ],
+          "sourceIds": [
+            "abbott-skypoint-ordering"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.75,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            3.25
+          ],
+          "sourceIds": [
+            "abbott-skypoint-ordering",
+            "ebc-2024-burzotta"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Post-dilatation limit (Abbott). EBC Table 3 reports the same 3.75 mm for 2.0–3.0 mm."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5.75,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            5
+          ],
+          "sourceIds": [
+            "abbott-skypoint-ordering",
+            "ebc-2024-burzotta"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Post-dilatation limit (Abbott); EBC Table 3 reports the same value."
+        }
+      ],
+      "minimalExpansion": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 2.05,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "2.0 mm stent at 8 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.36,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            3.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "3.5 mm stent at 8 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Specifications taken from the international ordering-information web page, not the IFU.",
+        "Size matrix restrictions entered for 48 mm and 4.5–5.0 mm sizes only; other combinations should be confirmed against the current table."
+      ]
+    },
+    {
+      "id": "medtronic-resolute-onyx",
+      "recordVersion": "1.1.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Medtronic",
+      "family": "Resolute",
+      "model": "Resolute Onyx",
+      "generation": "Resolute Onyx (not transferred to Resolute Integrity or Onyx Frontier)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          2,
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.5,
+          4,
+          4.5,
+          5
+        ],
+        "range": null,
+        "sourceIds": [
+          "medtronic-onyx-us"
+        ]
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          8,
+          12,
+          15,
+          18,
+          22,
+          26,
+          30,
+          34,
+          38
+        ],
+        "range": null,
+        "sourceIds": [
+          "medtronic-onyx-us"
+        ]
+      },
+      "lengthRestrictions": [
+        {
+          "diameters": [
+            2
+          ],
+          "maxLength": 30,
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ]
+        },
+        {
+          "diameters": [
+            4.5,
+            5
+          ],
+          "minLength": 12,
+          "maxLength": 30,
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ]
+        }
+      ],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 81,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2,
+            4
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Mehmedbegović 2023 Table 1 also lists 81 µm (no size breakdown)."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 91,
+          "unit": "µm",
+          "appliesToDiameters": [
+            4.5,
+            5
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "strutCrossSection": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Round strut (single-wire construction)",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Mehmedbegović 2023 Table 1 strut-shape drawing and \"single strained core wire\" manufacturing row (secondary source)."
+      },
+      "ringPattern": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "10 rings per 15 mm device",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "2–3 connectors per ring",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Mehmedbegović 2023 gives a range (2–3), not a single count, so the mesh uses its illustrative default."
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Shell: cobalt alloy; core: platinum–iridium",
+        "sourceIds": [
+          "medtronic-onyx-us"
+        ],
+        "notes": null
+      },
+      "nominalPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 12,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2,
+            5
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 18,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2,
+            4
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 16,
+          "unit": "atm",
+          "appliesToDiameters": [
+            4.5,
+            5
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2.5
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Maximum stent inner diameter (MSID)."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.75,
+            3
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Maximum stent inner diameter (MSID)."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Maximum stent inner diameter (MSID). Discrepancy: Mehmedbegović 2023 Table 1 lists 4.75 mm for 3.5–4.0 mm stents; the manufacturer value is kept."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 6,
+          "unit": "mm",
+          "appliesToDiameters": [
+            4.5,
+            5
+          ],
+          "sourceIds": [
+            "medtronic-onyx-us"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Maximum stent inner diameter (MSID). Discrepancy: Mehmedbegović 2023 Table 1 lists 5.75 mm for ≥4.5 mm stents; the manufacturer value is kept."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Only secondary values (Mehmedbegović 2023) with an unverified primary source are available; see bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Average diameter 5.6 mm (39%) after over-expansion of a 4.0 mm stent with a 6 mm balloon (secondary)",
+          "value": 5.6,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "4.0 mm stent, 6 mm balloon. Review cites its ref. 4 (Yi 2020, itself a review); primary bench study not identified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 0.9 mm after nominal implantation of a 3.0 mm stent (secondary)",
+          "value": 0.9,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent at nominal pressure. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 1.7 mm after over-expansion with a 5 mm balloon (secondary)",
+          "value": 1.7,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent, 5 mm balloon. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 2.584 mm after 3.0 mm nominal SB balloon inflation (secondary)",
+          "value": 2.584,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "SB obstruction 13.1% after POT–SB–rePOT sequence (secondary)",
+          "value": 13.1,
+          "unit": "%",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "Review cites its ref. 26 (Toth 2020, DK culotte); primary bench study not verified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        }
+      ],
+      "limitations": [
+        "Specifications taken from the US product web page, not the IFU.",
+        "MSID is a manufacturer limit, not an observed expansion measurement.",
+        "Mehmedbegović 2023 lists polymer 12 µm (permanent, circumferential), zotarolimus, shaft 2.7 F (3.2 F for 4.5–5.0 mm), lesion entry 0.017\", crossing 0.04\"; the schema has no fields for these.",
+        "Resolute Integrity bench data (Öner 2021, Foin 2013) are kept in a separate record and not transferred."
+      ]
+    },
+    {
+      "id": "bsc-synergy",
+      "recordVersion": "1.1.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Boston Scientific",
+      "family": "SYNERGY",
+      "model": "SYNERGY Everolimus-Eluting Platinum Chromium Coronary Stent System",
+      "generation": "SYNERGY per 2015 spec sheet (not SYNERGY XD or SYNERGY MEGATRON)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.5,
+          4
+        ],
+        "range": null,
+        "sourceIds": [
+          "bsc-synergy-spec-2015"
+        ]
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          38
+        ],
+        "range": null,
+        "sourceIds": [
+          "bsc-synergy-spec-2015"
+        ]
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 74,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2.25,
+            2.75
+          ],
+          "sourceIds": [
+            "bsc-synergy-spec-2015"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 79,
+          "unit": "µm",
+          "appliesToDiameters": [
+            3,
+            3.5
+          ],
+          "sourceIds": [
+            "bsc-synergy-spec-2015"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 81,
+          "unit": "µm",
+          "appliesToDiameters": [
+            4,
+            4
+          ],
+          "sourceIds": [
+            "bsc-synergy-spec-2015"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Connector arrangement not documented in the accessed source."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Platinum chromium (PtCr) alloy",
+        "sourceIds": [
+          "bsc-synergy-spec-2015"
+        ],
+        "notes": null
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "The spec sheet lists pressures, but the extracted table did not align values with diameters unambiguously, so they were not entered."
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "The spec sheet lists pressures, but the extracted table did not align values with diameters unambiguously, so they were not entered."
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "mm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Not stated in the accessed spec sheet."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Source is a 2015 spec sheet; current product generations may differ.",
+        "Pressure values deliberately left unverified (see notes).",
+        "Mehmedbegović 2023 Table 1 has a \"Synergy\" column (generation not stated): 74–81 µm, 2 connectors in the shaft and 4–5 at the proximal end, labelled max 4.25 mm (3.5 mm) and 5.75 mm (≥4.0 mm), 5.7 mm (56%) after 6 mm balloon on a 4.0 mm stent. Not assigned to this record or to SYNERGY XD because the generation is not stated."
+      ]
+    },
+    {
+      "id": "biotronik-orsiro-mission",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-19",
+      "manufacturer": "BIOTRONIK (vascular intervention business acquired by Teleflex, 2025)",
+      "family": "Orsiro",
+      "model": "Orsiro Mission",
+      "generation": "Orsiro Mission (data not transferred to the original Orsiro delivery system)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.5,
+          4
+        ],
+        "range": null,
+        "sourceIds": [
+          "biotronik-orsiro-mission-2023"
+        ]
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          9,
+          13,
+          15,
+          18,
+          22,
+          26,
+          30,
+          35,
+          40
+        ],
+        "range": null,
+        "sourceIds": [
+          "biotronik-orsiro-mission-2023"
+        ],
+        "notes": "Diameter–length matrix not verified; confirm availability."
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 60,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2.25,
+            3
+          ],
+          "sourceIds": [
+            "biotronik-orsiro-mission-2023"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 80,
+          "unit": "µm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "biotronik-orsiro-mission-2023"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Connector arrangement not documented in the accessed source."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Cobalt chromium, L-605",
+        "sourceIds": [
+          "biotronik-orsiro-mission-2023"
+        ],
+        "notes": null
+      },
+      "nominalPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 10,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2.25,
+            4
+          ],
+          "sourceIds": [
+            "biotronik-orsiro-mission-2023"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 16,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2.25,
+            4
+          ],
+          "sourceIds": [
+            "biotronik-orsiro-mission-2023"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.25,
+            3
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        }
+      ],
+      "minimalExpansion": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 2.31,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.25,
+            2.25
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "2.25 mm stent at 8 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.56,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            3.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "3.5 mm stent at 10 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "The prompt names \"Orsiro\"; the accessible document describes Orsiro Mission, so this record is Orsiro Mission only.",
+        "Brochure, not IFU."
+      ]
+    },
+    {
+      "id": "smt-supraflex-cruz",
+      "recordVersion": "1.1.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Sahajanand Medical Technologies (SMT)",
+      "family": "Supraflex",
+      "model": "Supraflex Cruz",
+      "generation": "Supraflex Cruz (not transferred to the original Supraflex)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2,
+          4.5
+        ],
+        "sourceIds": [
+          "smt-supraflex-cruz-ce-2019"
+        ],
+        "notes": "Only the range is stated; individual sizes not verified."
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          8,
+          48
+        ],
+        "sourceIds": [
+          "smt-supraflex-cruz-ce-2019"
+        ],
+        "notes": "Only the range is stated; individual sizes not verified."
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 60,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2,
+            4.5
+          ],
+          "sourceIds": [
+            "smt-supraflex-cruz-ce-2019"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Stated as 60 microns for all diameters and lengths."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "3.0 × 16 mm medium-vessel workhorse: 6 crowns, 12 strut rings, symmetric design, in-phase cell pattern",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Öner 2021 Fig. 2 (high-resolution line scan of one sample)."
+      },
+      "cellGeometry": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "Cell perimeter at nominal pressure 19.10 ± 0.11 mm (largest of the five platforms tested); theoretical maximum cell diameter 6.1 mm (perimeter ÷ π)",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Öner 2021, 3.0 × 16 mm stent expanded at nominal pressure in a 3.0 mm phantom; 10 full cells measured."
+      },
+      "connectorArrangement": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Dual Z link connecting valley to valley (manufacturer description)",
+        "sourceIds": [
+          "smt-supraflex-cruz-ce-2019"
+        ],
+        "notes": "Öner 2021 observed two connectors between strut rings on the 3.0 mm stent, consistent with this description."
+      },
+      "connectorsPerRing": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": 2,
+        "unit": "count",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 × 16 mm stent",
+        "uncertainty": null,
+        "notes": "Counted on the line scan in Öner 2021 (Fig. 2, Results)."
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Cobalt chromium platform",
+        "sourceIds": [
+          "smt-supraflex-cruz-ce-2019"
+        ],
+        "notes": null
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.25,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3
+          ],
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ],
+          "conditions": "Post-dilatation limit of inner stent diameter (Max ID) per IFU",
+          "uncertainty": null,
+          "notes": "IFU value as reported in Öner 2021 Fig. 2 for the 3.0 mm medium-vessel workhorse. The figure suggests the workhorse covers neighbouring sizes, but the bar ranges are not stated numerically, so the value is applied to 3.0 mm only."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": 2.78,
+        "unit": "mm",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 mm stent; single cell dilated with a 3.00 mm NC balloon at 14 atm",
+        "uncertainty": null,
+        "notes": "Öner 2021 Table 2: 0.22 mm below the balloon diameter. Other balloon sizes are listed under bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Supraflex Cruz 3.0 × 16 mm: cell opening 1.76 mm after 2.00 mm NC balloon (12% / 0.24 mm below balloon diameter)",
+          "value": 1.76,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Supraflex Cruz 3.0 × 16 mm: cell opening 1.92 mm after 2.25 mm NC balloon (15% / 0.33 mm below balloon diameter)",
+          "value": 1.92,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.25 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Supraflex Cruz 3.0 × 16 mm: cell opening 2.19 mm after 2.50 mm NC balloon (12% / 0.31 mm below balloon diameter)",
+          "value": 2.19,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.50 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Supraflex Cruz 3.0 × 16 mm: cell opening 2.42 mm after 2.75 mm NC balloon (12% / 0.33 mm below balloon diameter)",
+          "value": 2.42,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.75 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Supraflex Cruz 3.0 × 16 mm: cell opening 2.78 mm after 3.00 mm NC balloon (7% / 0.22 mm below balloon diameter)",
+          "value": 2.78,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 3.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Supraflex Cruz 3.0 × 16 mm: average shortfall of cell opening vs balloon diameter over 2.0–3.0 mm balloons 0.29 ± 0.046 mm",
+          "value": 0.29,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; Table 2 / Results text",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Supraflex Cruz 3.0 × 16 mm: single-cell dilatation up to a 4.0 mm NC balloon tolerated (overexpansion benchmark; no strut fracture reported)",
+          "value": 4,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 4.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Supraflex Cruz 3.0 × 16 mm: cell opening 5% below balloon diameter with a 4.0 mm NC balloon (smallest shortfall of all platforms and sizes)",
+          "value": 5,
+          "unit": "%",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 4.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        }
+      ],
+      "limitations": [
+        "Values come from a manufacturer press release reproduced by TCTMD (2019); the IFU was not accessed.",
+        "Bench and Max ID data apply to the 3.0 mm size tested by Öner 2021; other sizes may use a different workhorse design."
+      ]
+    },
+    {
+      "id": "terumo-ultimaster-tansei",
+      "recordVersion": "1.1.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Terumo",
+      "family": "Ultimaster",
+      "model": "Ultimaster Tansei",
+      "generation": "Ultimaster Tansei (no transfer from the original Ultimaster or to Nagomi)",
+      "diameters": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": [],
+        "notes": "Size table is loaded separately on the manufacturer page and was not accessible."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "A 2018 SOLACI report states 80 µm for \"Ultimaster\" (original generation); not transferred to Tansei."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Open cell, 2-link design (manufacturer description)",
+        "sourceIds": [
+          "terumo-tansei-page"
+        ],
+        "notes": null
+      },
+      "connectorsPerRing": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": 2,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [
+          "terumo-tansei-page"
+        ],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Interpreted from \"2-link design\" as two connectors between adjacent rings."
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Stent alloy not stated on the accessed page."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "mm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "The page states \"post-dilatation limit up to 5.5 mm\" without the size range it applies to, so it is not applied to individual sizes."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "The page cites independent bench tests of expansion capacity up to 5.8 mm, without test method; not entered as bench data.",
+        "Mehmedbegović 2023 Table 1 has an \"Ultimaster\" column (generation not stated): CoCr, 80 µm, 2 connectors, 8 rings per 15 mm, sizes 2.25–4.0 mm, labelled max 5.5 mm for ≥3.5 mm, 5.8 mm (63%) after 6 mm balloon on a 4.0 mm stent. Not transferred to Tansei or Nagomi."
+      ]
+    },
+    {
+      "id": "terumo-ultimaster-nagomi",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-19",
+      "manufacturer": "Terumo",
+      "family": "Ultimaster",
+      "model": "Ultimaster Nagomi",
+      "generation": "Ultimaster Nagomi (no transfer from Tansei)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2,
+          4.5
+        ],
+        "sourceIds": [
+          "terumo-nagomi-page"
+        ],
+        "notes": "Only the range is stated on the accessed page."
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          9,
+          50
+        ],
+        "sourceIds": [
+          "terumo-nagomi-page"
+        ],
+        "notes": "Only the range is stated on the accessed page."
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Not stated on the accessed page."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Not stated on the accessed page."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Stent alloy not stated on the accessed page."
+      },
+      "nominalPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 11,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2,
+            4.5
+          ],
+          "sourceIds": [
+            "terumo-nagomi-page"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Delivery balloon nominal pressure."
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.75,
+            3
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 6.25,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta",
+            "terumo-nagomi-page"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        }
+      ],
+      "minimalExpansion": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 1.84,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "2.0 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 2.56,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.75,
+            2.75
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "2.75 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.26,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            3.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "3.5 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Web page summary, not IFU."
+      ]
+    },
+    {
+      "id": "biosensors-biomatrix-flex",
+      "recordVersion": "1.1.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Biosensors International",
+      "family": "BioMatrix",
+      "model": "BioMatrix Flex",
+      "generation": "BioMatrix Flex",
+      "diameters": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "values": null,
+        "range": [
+          2.25,
+          4
+        ],
+        "sourceIds": [
+          "foin-2013-eurointervention"
+        ],
+        "notes": "Diameters covered by the two workhorse designs in Foin 2013 (Fig. 4 and text); not a manufacturer size table."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Menown et al. 2021 report 114–120 µm for stainless-steel BP-BES platforms without size-specific values; not entered as a device specification."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "Two workhorse designs: medium vessel 2.25–3.0 mm with 6 crowns; large vessel 3.5–4.0 mm with 9 crowns (design cut-off at 3.0 mm)",
+        "sourceIds": [
+          "foin-2013-eurointervention"
+        ],
+        "notes": "Foin 2013 Fig. 4 and Results."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "2 connectors (2 cells) per ring in the 2.25–3.0 mm design; 3 connectors in the 3.5–4.0 mm design",
+        "sourceIds": [
+          "foin-2013-eurointervention"
+        ],
+        "notes": "Foin 2013 Fig. 4."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Design-dependent (2 for 2.25–3.0 mm, 3 for 3.5–4.0 mm per Foin 2013); this field is not size-specific, so the mesh uses its illustrative default."
+      },
+      "material": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": "316L stainless steel (as described in peer-reviewed literature)",
+        "sourceIds": [
+          "menown-2021-jic"
+        ],
+        "notes": "Literature description, not a manufacturer specification. Foin 2013 also describes BioMatrix Flex as stainless steel."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "mm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "No manufacturer limit accessed. Bench overexpansion results (Foin 2013) are listed under bench tests, not used as a limit."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": 1.4,
+        "unit": "mm",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "foin-2013-eurointervention"
+        ],
+        "conditions": "3.0 mm stent at nominal pressure (no side-branch dilatation)",
+        "uncertainty": null,
+        "notes": "Foin 2013 Table 2; 4.0 mm stent: 1.1 mm. Not comparable with Öner 2021 values, which are after side-branch balloon dilatation."
+      },
+      "benchTests": [
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "BioMatrix Flex medium-vessel design: minimal inner lumen diameter 4.7 mm after 5.0 mm post-dilatation (54% above the design's largest nominal size, 3 mm); MSA 16.7 ± 0.4 mm², average inner LD from MSA 4.6 mm",
+          "value": 4.7,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "Largest size of this workhorse (3 mm), 5.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "BioMatrix Flex medium-vessel design: crown angle 67° at nominal pressure → 155° after 5.0 mm post-dilatation",
+          "value": 155,
+          "unit": "deg",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "3 mm stent, mean of 8 crowns",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "BioMatrix Flex medium-vessel design: cell opening (fitted circle) 1.4 mm at nominal pressure → 2 mm after 5.0 mm post-dilatation",
+          "value": 2,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "3 mm stent, mean of 3 measures; whole-stent overexpansion, not side-branch dilatation",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "BioMatrix Flex large-vessel design: minimal inner lumen diameter 5.9 mm after 6.0 mm post-dilatation (49% above the design's largest nominal size, 4 mm); MSA 27.7 ± 0.6 mm², average inner LD from MSA 5.9 mm",
+          "value": 5.9,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "Largest size of this workhorse (4 mm), 6.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "BioMatrix Flex large-vessel design: crown angle 51° at nominal pressure → 143° after 6.0 mm post-dilatation",
+          "value": 143,
+          "unit": "deg",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "4 mm stent, mean of 8 crowns",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "BioMatrix Flex large-vessel design: cell opening (fitted circle) 1.1 mm at nominal pressure → 2.4 mm after 6.0 mm post-dilatation",
+          "value": 2.4,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "4 mm stent, mean of 3 measures; whole-stent overexpansion, not side-branch dilatation",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        }
+      ],
+      "limitations": [
+        "No manufacturer technical document was accessible in this build.",
+        "Foin 2013 tested one platform generation available in 2012; bench values are in vitro and not manufacturer limits."
+      ]
+    },
+    {
+      "id": "generic-illustrative",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-19",
+      "manufacturer": "—",
+      "family": "Generic",
+      "model": "Generic illustrative stent",
+      "generation": "Not a commercial device",
+      "isGeneric": true,
+      "diameters": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "values": [
+          2,
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.25,
+          3.5,
+          4,
+          4.5,
+          5
+        ],
+        "range": null,
+        "sourceIds": []
+      },
+      "lengths": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "values": [
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          38
+        ],
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "ILLUSTRATIVE ASSUMPTION",
+          "value": 80,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Illustrative value for teaching."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "value": "Rendered as round struts",
+        "sourceIds": []
+      },
+      "ringPattern": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "value": "Sinusoidal rings, 8–9 crowns",
+        "sourceIds": []
+      },
+      "connectorArrangement": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "value": "Three connectors between rings, alternating",
+        "sourceIds": []
+      },
+      "connectorsPerRing": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "value": 3,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "cellGeometry": {
+        "status": "ILLUSTRATIVE ASSUMPTION",
+        "value": "Open cell (generic)",
+        "sourceIds": []
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": null
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "mm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Teaching geometry only; represents no commercial device."
+      ]
+    },
+    {
+      "id": "medtronic-onyx-frontier",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-19",
+      "manufacturer": "Medtronic",
+      "family": "Resolute",
+      "model": "Onyx Frontier",
+      "generation": "Onyx Frontier (separate from Resolute Onyx; no data transferred)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2,
+          5
+        ],
+        "sourceIds": [
+          "ebc-2024-burzotta"
+        ],
+        "notes": "Only the nominal size ranges in EBC Table 3 are documented here."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Not stated in the accessed source; Resolute Onyx values are not transferred."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": null
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Not stated in the accessed source."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.75,
+            3
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 6,
+          "unit": "mm",
+          "appliesToDiameters": [
+            4.5,
+            5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        }
+      ],
+      "minimalExpansion": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 1.89,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "2.0 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 2.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.75,
+            2.75
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "2.75 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.2,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            3.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "3.5 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.1,
+          "unit": "mm",
+          "appliesToDiameters": [
+            4.5,
+            4.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "4.5 mm stent at 7 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Note: EBC Table 3 gives 3.00 mm for 2.0–2.5 mm Onyx Frontier, whereas the Resolute Onyx MSID is 3.50 mm. The generations are kept separate."
+      ]
+    },
+    {
+      "id": "bsc-synergy-xd",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-19",
+      "manufacturer": "Boston Scientific",
+      "family": "SYNERGY",
+      "model": "SYNERGY XD",
+      "generation": "SYNERGY XD (no data transferred from the 2015 SYNERGY spec sheet)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2.25,
+          4
+        ],
+        "sourceIds": [
+          "ebc-2024-burzotta"
+        ],
+        "notes": "Only the nominal size ranges in EBC Table 3 are documented here."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Not stated in the accessed source."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Proprietary ring pattern not reproduced; the simulator draws a generic illustrative mesh."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": null
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": null
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Not stated in the accessed source."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.25,
+            2.75
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.25,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5.75,
+          "unit": "mm",
+          "appliesToDiameters": [
+            4,
+            4
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts."
+        }
+      ],
+      "minimalExpansion": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 2.05,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2,
+            2
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "\"2.0 mm stent at 8 atm\" as printed",
+          "uncertainty": null,
+          "notes": "EBC Table 3 lists this value for a 2.0 mm stent although the stated range is 2.25–2.75 mm; kept as printed, not applied to 2.25 mm."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.05,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "3.0 mm stent at 8 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.88,
+          "unit": "mm",
+          "appliesToDiameters": [
+            4,
+            4
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "4.0 mm stent at 8 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Only expansion data from EBC Table 3 are entered."
+      ]
+    },
+    {
+      "id": "bsc-synergy-megatron",
+      "recordVersion": "1.1.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Boston Scientific",
+      "family": "SYNERGY",
+      "model": "SYNERGY MEGATRON",
+      "generation": "SYNERGY MEGATRON (large-vessel platform; separate record)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          3.5,
+          5
+        ],
+        "sourceIds": [
+          "ebc-2024-burzotta"
+        ],
+        "notes": "Only the nominal size range in EBC Table 3 is documented here."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Mehmedbegović 2023 Table 1 gives 89–92 µm without size mapping; a range is not entered as a size-specific value."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "12-peak (crown) ring design",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Mehmedbegović 2023 text: 9-, 10- and 12-peak designs were compared during development and the 12-peak design became the commercial version (citing Samant 2021)."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "3 connectors per ring in the shaft; 4 in the proximal 2 rings",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "connectorsPerRing": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": 3,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "conditions": "Stent shaft",
+        "uncertainty": null,
+        "notes": "Shaft value from Mehmedbegović 2023 Table 1; the proximal 2 rings have 4."
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Platinum chromium (PtCr)",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 6,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta",
+            "mehmedbegovic-2023-rcm"
+          ],
+          "conditions": "Appropriately sized post-dilatation balloon, on-label use",
+          "uncertainty": null,
+          "notes": "EBC 18th consensus Table 3: maximal overexpansion diameter with an appropriately sized post-dilating balloon (on-label use), per manufacturers' compliance charts. Mehmedbegović 2023 Table 1 also lists 6 mm."
+        }
+      ],
+      "minimalExpansion": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.18,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            3.5
+          ],
+          "sourceIds": [
+            "ebc-2024-burzotta"
+          ],
+          "conditions": "3.5 mm stent at 8 atm",
+          "uncertainty": null,
+          "notes": "Minimal expansion diameter per manufacturer compliance chart, as reported in EBC Table 3."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Only a secondary value (Mehmedbegović 2023) with an unverified primary source is available; see bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 1.17 mm after nominal implantation of a 5.0 mm stent (secondary)",
+          "value": 1.17,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "5.0 mm stent at nominal pressure. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        }
+      ],
+      "limitations": [
+        "Expansion data from EBC Table 3; design data from a review (Mehmedbegović 2023).",
+        "Mehmedbegović 2023 lists bioresorbable abluminal polymer 4 µm, everolimus; the schema has no fields for these."
+      ]
+    },
+    {
+      "id": "biotronik-orsiro",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "BIOTRONIK (vascular intervention business acquired by Teleflex, 2025)",
+      "family": "Orsiro",
+      "model": "Orsiro",
+      "generation": "Orsiro as named in Öner 2021 and Mehmedbegović 2023 (no data transferred to or from Orsiro Mission)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2.25,
+          4
+        ],
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Range as tabulated in Mehmedbegović 2023 Table 1 (secondary source); individual sizes not verified."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Mehmedbegović 2023 Table 1 gives 68–81 µm without size mapping; a range is not entered as a size-specific value."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "3.0 × 15 mm medium-vessel workhorse: 6–7 crowns, 14 strut rings, helical design, in-phase cell pattern; denser strut pattern at the stent end",
+        "sourceIds": [
+          "oner-2021-ejmr",
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Öner 2021 Fig. 2 and Results. Mehmedbegović 2023 lists 6–7 rings per 15 mm device (counting convention not stated)."
+      },
+      "cellGeometry": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "Cell perimeter at nominal pressure 10.97 ± 0.55 mm (smallest of the five platforms tested); theoretical maximum cell diameter 3.5 mm (perimeter ÷ π)",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Öner 2021, 3.0 × 15 mm stent expanded at nominal pressure in a 3.0 mm phantom; 10 full cells measured."
+      },
+      "connectorArrangement": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "3–4 connectors between strut rings",
+        "sourceIds": [
+          "oner-2021-ejmr",
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Öner 2021; Mehmedbegović 2023 lists the same 3–4."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Sources give a range (3–4), not a single count, so the mesh uses its illustrative default."
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Cobalt chromium (CoCr)",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3
+          ],
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ],
+          "conditions": "Post-dilatation limit of inner stent diameter (Max ID) per IFU",
+          "uncertainty": null,
+          "notes": "IFU value as reported in Öner 2021 Fig. 2 for the 3.0 mm medium-vessel workhorse. The figure suggests the workhorse covers neighbouring sizes, but the bar ranges are not stated numerically, so the value is applied to 3.0 mm only."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Labelled maximal over-expansion inner diameter for ≥3.5 mm devices, as tabulated in Mehmedbegović 2023 Table 1 (secondary source; IFU not accessed)."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": 2.47,
+        "unit": "mm",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 mm stent; single cell dilated with a 3.00 mm NC balloon at 14 atm",
+        "uncertainty": null,
+        "notes": "Öner 2021 Table 2: 0.53 mm below the balloon diameter. Other balloon sizes are listed under bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Orsiro 3.0 × 15 mm: cell opening 1.47 mm after 2.00 mm NC balloon (27% / 0.53 mm below balloon diameter)",
+          "value": 1.47,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Orsiro 3.0 × 15 mm: cell opening 1.62 mm after 2.25 mm NC balloon (28% / 0.63 mm below balloon diameter)",
+          "value": 1.62,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.25 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Orsiro 3.0 × 15 mm: cell opening 1.89 mm after 2.50 mm NC balloon (24% / 0.61 mm below balloon diameter)",
+          "value": 1.89,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.50 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Orsiro 3.0 × 15 mm: cell opening 2.08 mm after 2.75 mm NC balloon (24% / 0.67 mm below balloon diameter)",
+          "value": 2.08,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.75 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Orsiro 3.0 × 15 mm: cell opening 2.47 mm after 3.00 mm NC balloon (18% / 0.53 mm below balloon diameter)",
+          "value": 2.47,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 3.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Orsiro 3.0 × 15 mm: average shortfall of cell opening vs balloon diameter over 2.0–3.0 mm balloons 0.59 ± 0.054 mm",
+          "value": 0.59,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; Table 2 / Results text",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Orsiro 3.0 × 15 mm: single-cell dilatation up to a 4.0 mm NC balloon tolerated (overexpansion benchmark; no strut fracture reported)",
+          "value": 4,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 4.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Average diameter 5.3 mm (58%) after over-expansion of a 4.0 mm stent with a 6 mm balloon (secondary)",
+          "value": 5.3,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "4.0 mm stent, 6 mm balloon. Review cites its ref. 4 (Yi 2020, itself a review); primary bench study not identified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 0.6 mm after nominal implantation of a 3.0 mm stent (secondary)",
+          "value": 0.6,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent at nominal pressure. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 1.5 mm after over-expansion with a 5 mm balloon (secondary)",
+          "value": 1.5,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent, 5 mm balloon. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 2.742 mm after 3.0 mm nominal SB balloon inflation (secondary; Öner 2021 Table 2 gives 2.47 mm)",
+          "value": 2.742,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "SB obstruction 18.4% after POT–SB–rePOT sequence (secondary)",
+          "value": 18.4,
+          "unit": "%",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "Review cites its ref. 26 (Toth 2020, DK culotte); primary bench study not verified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        }
+      ],
+      "limitations": [
+        "No manufacturer document accessed; sizes, materials and labelled limits come from the two articles.",
+        "Max ID 3.5 mm (Öner) applies to the 3.0 mm size only; 4.5 mm (review) to 3.5–4.0 mm. 2.25–2.75 mm sizes have no documented limit here.",
+        "Polymer and drug rows of Mehmedbegović 2023 Table 1 are not entered (no schema field); its drug row lists everolimus for Orsiro."
+      ]
+    },
+    {
+      "id": "abbott-xience-sierra",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Abbott",
+      "family": "XIENCE",
+      "model": "XIENCE Sierra",
+      "generation": "XIENCE Sierra (no data transferred to or from XIENCE Skypoint)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2,
+          4
+        ],
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Range as tabulated in Mehmedbegović 2023 Table 1 (secondary source); individual sizes not verified."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 81,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2,
+            4
+          ],
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Single value given for the platform in Mehmedbegović 2023 Table 1 (secondary source); size dependence not stated."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "3.0 × 15 mm medium-vessel workhorse: 6 crowns, 11 strut rings, symmetric design, in-phase cell pattern",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Öner 2021 Fig. 2. Discrepancy: Mehmedbegović 2023 lists 6 rings per 15 mm device; both kept as stated."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Öner 2021 reports cell perimeter, area and roundness for XIENCE Sierra only in bar charts; values were not read off the charts."
+      },
+      "connectorArrangement": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "3 connectors between strut rings",
+        "sourceIds": [
+          "oner-2021-ejmr",
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Öner 2021; Mehmedbegović 2023 lists the same."
+      },
+      "connectorsPerRing": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": 3,
+        "unit": "count",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr",
+          "mehmedbegovic-2023-rcm"
+        ],
+        "conditions": "3.0 × 15 mm stent",
+        "uncertainty": null,
+        "notes": "Counted on the line scan in Öner 2021; Mehmedbegović 2023 also lists 3."
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Cobalt chromium (CoCr)",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 3.75,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3
+          ],
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ],
+          "conditions": "Post-dilatation limit of inner stent diameter (Max ID) per IFU",
+          "uncertainty": null,
+          "notes": "IFU value as reported in Öner 2021 Fig. 2 for the 3.0 mm medium-vessel workhorse. The figure suggests the workhorse covers neighbouring sizes, but the bar ranges are not stated numerically, so the value is applied to 3.0 mm only."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5.5,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Labelled maximal over-expansion inner diameter for ≥3.5 mm devices, as tabulated in Mehmedbegović 2023 Table 1 (secondary source; IFU not accessed)."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": 2.29,
+        "unit": "mm",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 mm stent; single cell dilated with a 3.00 mm NC balloon at 14 atm",
+        "uncertainty": null,
+        "notes": "Öner 2021 Table 2: 0.71 mm below the balloon diameter. Other balloon sizes are listed under bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "XIENCE Sierra 3.0 × 15 mm: cell opening 1.51 mm after 2.00 mm NC balloon (24% / 0.49 mm below balloon diameter)",
+          "value": 1.51,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "XIENCE Sierra 3.0 × 15 mm: cell opening 1.64 mm after 2.25 mm NC balloon (27% / 0.61 mm below balloon diameter)",
+          "value": 1.64,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.25 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "XIENCE Sierra 3.0 × 15 mm: cell opening 1.88 mm after 2.50 mm NC balloon (25% / 0.62 mm below balloon diameter)",
+          "value": 1.88,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.50 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "XIENCE Sierra 3.0 × 15 mm: cell opening 2.05 mm after 2.75 mm NC balloon (25% / 0.70 mm below balloon diameter)",
+          "value": 2.05,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.75 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "XIENCE Sierra 3.0 × 15 mm: cell opening 2.29 mm after 3.00 mm NC balloon (24% / 0.71 mm below balloon diameter)",
+          "value": 2.29,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 3.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "XIENCE Sierra 3.0 × 15 mm: average shortfall of cell opening vs balloon diameter over 2.0–3.0 mm balloons 0.62 ± 0.079 mm",
+          "value": 0.62,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; Table 2 / Results text",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "XIENCE Sierra 3.0 × 15 mm: single-cell dilatation up to a 4.0 mm NC balloon tolerated (overexpansion benchmark; no strut fracture reported)",
+          "value": 4,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 4.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Average diameter 5.6 mm (67%) after over-expansion of a 4.0 mm stent with a 6 mm balloon (secondary)",
+          "value": 5.6,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "4.0 mm stent, 6 mm balloon. Review cites its ref. 4 (Yi 2020, itself a review); primary bench study not identified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 1.1 mm after nominal implantation of a 3.0 mm stent (secondary)",
+          "value": 1.1,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent at nominal pressure. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 1.6 mm after over-expansion with a 5 mm balloon (secondary)",
+          "value": 1.6,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent, 5 mm balloon. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 2.612 mm after 3.0 mm nominal SB balloon inflation (secondary; Öner 2021 Table 2 gives 2.29 mm)",
+          "value": 2.612,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "SB obstruction 10% after POT–SB–rePOT sequence (secondary)",
+          "value": 10,
+          "unit": "%",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "Review cites its ref. 26 (Toth 2020, DK culotte); primary bench study not verified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        }
+      ],
+      "limitations": [
+        "No manufacturer document accessed; sizes, materials and labelled limits come from the two articles.",
+        "Max ID 3.75 mm (Öner) applies to the 3.0 mm size only; 5.5 mm (review) to 3.5–4.0 mm."
+      ]
+    },
+    {
+      "id": "medtronic-resolute-integrity",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Medtronic",
+      "family": "Resolute",
+      "model": "Resolute Integrity",
+      "generation": "Resolute Integrity (no data transferred to or from Resolute Onyx or Onyx Frontier)",
+      "diameters": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "values": null,
+        "range": [
+          2.25,
+          4
+        ],
+        "sourceIds": [
+          "foin-2013-eurointervention"
+        ],
+        "notes": "Diameters covered by the designs shown in Foin 2013 Fig. 4; not a manufacturer size table."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Not stated in the accessed sources."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "Small-vessel design 2.25–2.75 mm: 7 crowns; medium/large-vessel design 3.0–4.0 mm: 10 crowns (Foin 2013). 3.0 × 15 mm: 10 crowns, 15 strut rings, helical design, off-phase cell pattern (Öner 2021)",
+        "sourceIds": [
+          "foin-2013-eurointervention",
+          "oner-2021-ejmr"
+        ],
+        "notes": "Foin 2013 Fig. 4 and Results; Öner 2021 Fig. 2."
+      },
+      "cellGeometry": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "Cell perimeter at nominal pressure 14.88 ± 1.31 mm, the most variable of the five platforms tested; lowest relative cell roundness (dense zigzag)",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Öner 2021, 3.0 × 15 mm stent expanded at nominal pressure in a 3.0 mm phantom."
+      },
+      "connectorArrangement": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "2 connectors in both designs (Foin 2013); 2–3 connectors between strut rings on the 3.0 mm stent (Öner 2021)",
+        "sourceIds": [
+          "foin-2013-eurointervention",
+          "oner-2021-ejmr"
+        ],
+        "notes": "The two sources differ (2 vs 2–3); both kept as stated."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Sources disagree (2 vs 2–3), so the mesh uses its illustrative default."
+      },
+      "material": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": "Sinusoidal single strand of cobalt alloy, laser-fused at intervals (not a laser-cut tube)",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Literature description, not a manufacturer specification."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.75,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3
+          ],
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ],
+          "conditions": "Post-dilatation limit of inner stent diameter (Max ID) per IFU",
+          "uncertainty": null,
+          "notes": "IFU value as reported in Öner 2021 Fig. 2 for the 3.0 mm medium-vessel workhorse. The figure suggests the workhorse covers neighbouring sizes, but the bar ranges are not stated numerically, so the value is applied to 3.0 mm only."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": 2.42,
+        "unit": "mm",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 mm stent; single cell dilated with a 3.00 mm NC balloon at 14 atm",
+        "uncertainty": null,
+        "notes": "Öner 2021 Table 2: 0.58 mm below the balloon diameter. Other balloon sizes are listed under bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Resolute Integrity 3.0 × 15 mm: cell opening 1.30 mm after 2.00 mm NC balloon (35% / 0.70 mm below balloon diameter)",
+          "value": 1.3,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Resolute Integrity 3.0 × 15 mm: cell opening 1.50 mm after 2.25 mm NC balloon (33% / 0.75 mm below balloon diameter)",
+          "value": 1.5,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.25 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Resolute Integrity 3.0 × 15 mm: cell opening 1.84 mm after 2.50 mm NC balloon (26% / 0.66 mm below balloon diameter)",
+          "value": 1.84,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.50 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Resolute Integrity 3.0 × 15 mm: cell opening 2.08 mm after 2.75 mm NC balloon (25% / 0.67 mm below balloon diameter)",
+          "value": 2.08,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.75 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Resolute Integrity 3.0 × 15 mm: cell opening 2.42 mm after 3.00 mm NC balloon (19% / 0.58 mm below balloon diameter)",
+          "value": 2.42,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 3.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity 3.0 × 15 mm: average shortfall of cell opening vs balloon diameter over 2.0–3.0 mm balloons 0.67 ± 0.055 mm",
+          "value": 0.67,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; Table 2 / Results text",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity 3.0 × 15 mm: single-cell dilatation up to a 4.0 mm NC balloon tolerated (overexpansion benchmark; no strut fracture reported)",
+          "value": 4,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 4.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity small-vessel design: minimal inner lumen diameter 4.7 mm after 5.0 mm post-dilatation (77% above the design's largest nominal size, 2.75 mm); MSA 18.5 ± 0.3 mm², average inner LD from MSA 4.9 mm",
+          "value": 4.7,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "Largest size of this workhorse (2.75 mm), 5.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity small-vessel design: crown angle 45° at nominal pressure → 140° after 5.0 mm post-dilatation",
+          "value": 140,
+          "unit": "deg",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "2.75 mm stent, mean of 8 crowns",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity small-vessel design: cell opening (fitted circle) 0.8 mm at nominal pressure → 1.9 mm after 5.0 mm post-dilatation",
+          "value": 1.9,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "2.75 mm stent, mean of 3 measures; whole-stent overexpansion, not side-branch dilatation",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity medium/large-vessel design: minimal inner lumen diameter 5.4 mm after 6.0 mm post-dilatation (36% above the design's largest nominal size, 4 mm); MSA 23.3 ± 1.9 mm², average inner LD from MSA 5.4 mm",
+          "value": 5.4,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "Largest size of this workhorse (4 mm), 6.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity medium/large-vessel design: crown angle 49° at nominal pressure → 154° after 6.0 mm post-dilatation",
+          "value": 154,
+          "unit": "deg",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "4 mm stent, mean of 8 crowns",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Resolute Integrity medium/large-vessel design: cell opening (fitted circle) 0.8 mm at nominal pressure → 2.1 mm after 6.0 mm post-dilatation",
+          "value": 2.1,
+          "unit": "mm",
+          "testMethod": "Micro-CT (HMX 225, up to 15 µm) after deployment at nominal pressure and proximal post-dilatation at 14 atm (NC Quantum Apex 4.0/5.0 mm; Maverick XL 6.0 mm semi-compliant for the largest designs, repeated twice).",
+          "conditions": "4 mm stent, mean of 3 measures; whole-stent overexpansion, not side-branch dilatation",
+          "sourceIds": [
+            "foin-2013-eurointervention"
+          ]
+        }
+      ],
+      "limitations": [
+        "No manufacturer document accessed; superseded by Resolute Onyx, kept for comparison with published bench data.",
+        "Max ID 4.75 mm (Öner, from the IFU) applies to the 3.0 mm size only."
+      ]
+    },
+    {
+      "id": "bsc-promus-premier",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Boston Scientific",
+      "family": "Promus",
+      "model": "Promus PREMIER",
+      "generation": "Promus PREMIER as named in Mehmedbegović 2023 (no data transferred to or from Promus PREMIER Select)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": null,
+        "range": [
+          2.25,
+          4
+        ],
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "Range as tabulated in Mehmedbegović 2023 Table 1 (secondary source); individual sizes not verified."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Mehmedbegović 2023 Table 1 gives 81–86 µm without size mapping; a range is not entered as a size-specific value."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "8 rings per 15 mm device",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "2 connectors per ring",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "connectorsPerRing": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": 2,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source; IFU not accessed)."
+      },
+      "material": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "Platinum chromium (PtCr)",
+        "sourceIds": [
+          "mehmedbegovic-2023-rcm"
+        ],
+        "notes": "As tabulated in Mehmedbegović 2023 Table 1 (secondary source)."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.25,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            3.5
+          ],
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Labelled maximal over-expansion inner diameter, as tabulated in Mehmedbegović 2023 Table 1 (secondary source; IFU not accessed)."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5.75,
+          "unit": "mm",
+          "appliesToDiameters": [
+            4,
+            4
+          ],
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Labelled maximal over-expansion inner diameter, as tabulated in Mehmedbegović 2023 Table 1 (secondary source; IFU not accessed)."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Only a secondary value (Mehmedbegović 2023) with an unverified primary source is available; see bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Side-cell fitted circle 2.797 mm after 3.0 mm nominal SB balloon inflation (secondary)",
+          "value": 2.797,
+          "unit": "mm",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "3.0 mm stent. Review Table 1 attributes the side-cell rows to its ref. 9 (Öner 2021), but Öner 2021 tested Resolute Integrity (not Resolute Onyx), did not test Ultimaster, SYNERGY or MEGATRON, did not use a 5 mm balloon, and its Table 2 gives different post-3.0 mm-balloon values. Primary source unverified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "SB obstruction 5.6% after POT–SB–rePOT sequence (secondary)",
+          "value": 5.6,
+          "unit": "%",
+          "testMethod": "Secondary tabulation (Mehmedbegović 2023 Table 1); primary study as cited by the review.",
+          "conditions": "Review cites its ref. 26 (Toth 2020, DK culotte); primary bench study not verified.",
+          "sourceIds": [
+            "mehmedbegovic-2023-rcm"
+          ]
+        }
+      ],
+      "limitations": [
+        "All values come from a review table (secondary source).",
+        "Sizes below 3.5 mm have no documented limit here."
+      ]
+    },
+    {
+      "id": "bsc-promus-premier-select",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Boston Scientific",
+      "family": "Promus",
+      "model": "Promus PREMIER Select",
+      "generation": "Promus PREMIER Select (no data transferred to or from Promus PREMIER)",
+      "diameters": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "values": [
+          3
+        ],
+        "range": null,
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Only the 3.0 mm size tested in Öner 2021; the full size range is not in the source."
+      },
+      "lengths": {
+        "status": "DATA UNAVAILABLE",
+        "values": null,
+        "range": null,
+        "sourceIds": []
+      },
+      "lengthRestrictions": [],
+      "strutThickness": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "µm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "Not stated in the accessed source."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "3.0 × 16 mm medium-vessel workhorse: 8 crowns, 14 strut rings, symmetric design, in-phase cell pattern; denser strut pattern at one end",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Öner 2021 Fig. 2. The denser end is described as proximal in Methods and distal in Results."
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Öner 2021 reports cell perimeter, area and roundness for Promus PREMIER Select only in bar charts; values were not read off the charts."
+      },
+      "connectorArrangement": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": "2 connectors between strut rings",
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "notes": "Marked with an asterisk in Öner 2021 Fig. 2; the footnote is not given."
+      },
+      "connectorsPerRing": {
+        "status": "PUBLISHED BENCH MEASUREMENT",
+        "value": 2,
+        "unit": "count",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 × 16 mm stent",
+        "uncertainty": null,
+        "notes": "Counted on the line scan in Öner 2021."
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Not stated in the accessed source."
+      },
+      "nominalPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "DATA UNAVAILABLE",
+          "value": null,
+          "unit": "atm",
+          "appliesToDiameters": null,
+          "sourceIds": [],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.25,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3,
+            3
+          ],
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ],
+          "conditions": "Post-dilatation limit of inner stent diameter (Max ID) per IFU",
+          "uncertainty": null,
+          "notes": "IFU value as reported in Öner 2021 Fig. 2 for the 3.0 mm medium-vessel workhorse. The figure suggests the workhorse covers neighbouring sizes, but the bar ranges are not stated numerically, so the value is applied to 3.0 mm only."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DERIVED FROM VERIFIED DATA",
+        "value": 2.76,
+        "unit": "mm",
+        "appliesToDiameters": [
+          3,
+          3
+        ],
+        "sourceIds": [
+          "oner-2021-ejmr"
+        ],
+        "conditions": "3.0 mm stent; single cell dilated with a 3.00 mm NC balloon at 14 atm",
+        "uncertainty": null,
+        "notes": "Öner 2021 Table 2: 0.24 mm below the balloon diameter. Other balloon sizes are listed under bench tests."
+      },
+      "benchTests": [
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: cell opening 1.60 mm after 2.00 mm NC balloon (20% / 0.40 mm below balloon diameter)",
+          "value": 1.6,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: cell opening 1.82 mm after 2.25 mm NC balloon (19% / 0.43 mm below balloon diameter)",
+          "value": 1.82,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.25 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: cell opening 2.20 mm after 2.50 mm NC balloon (12% / 0.30 mm below balloon diameter)",
+          "value": 2.2,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.50 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: cell opening 2.44 mm after 2.75 mm NC balloon (11% / 0.31 mm below balloon diameter)",
+          "value": 2.44,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 2.75 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "DERIVED FROM VERIFIED DATA",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: cell opening 2.76 mm after 3.00 mm NC balloon (8% / 0.24 mm below balloon diameter)",
+          "value": 2.76,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 3.00 mm balloon at 14 atm; value = balloon diameter minus the shortfall in Table 2",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: average shortfall of cell opening vs balloon diameter over 2.0–3.0 mm balloons 0.34 ± 0.069 mm",
+          "value": 0.34,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; Table 2 / Results text",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        },
+        {
+          "status": "PUBLISHED BENCH MEASUREMENT",
+          "description": "Promus PREMIER Select 3.0 × 16 mm: single-cell dilatation up to a 4.0 mm NC balloon tolerated (overexpansion benchmark; no strut fracture reported)",
+          "value": 4,
+          "unit": "mm",
+          "testMethod": "Single-cell side-branch dilatation with BIOTRONIK Pantera LEO NC balloons at 14 atm after deployment at nominal pressure in a phantom bifurcation (3 samples per platform); cell opening = diameter of a circle fitted within the cell struts (Olympus SZX16 microscope).",
+          "conditions": "3.0 mm stent; 4.0 mm balloon at 14 atm",
+          "sourceIds": [
+            "oner-2021-ejmr"
+          ]
+        }
+      ],
+      "limitations": [
+        "Bench record for the single 3.0 mm size tested by Öner 2021."
+      ]
+    },
+    {
+      "id": "biosensors-biomatrix-alpha",
+      "recordVersion": "1.0.0",
+      "lastReviewed": "2026-10-20",
+      "manufacturer": "Biosensors International",
+      "family": "BioMatrix",
+      "model": "BioMatrix Alpha",
+      "generation": "BioMatrix Alpha (separate from BioMatrix Flex; no data transferred either way)",
+      "diameters": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          2.25,
+          2.5,
+          2.75,
+          3,
+          3.5,
+          4
+        ],
+        "range": null,
+        "sourceIds": [
+          "biosensors-biomatrix-alpha-brochure"
+        ],
+        "notes": "SV model 2.25–3.0 mm; MV model 3.5–4.0 mm."
+      },
+      "lengths": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "values": [
+          9,
+          14,
+          19,
+          24,
+          29,
+          33,
+          36
+        ],
+        "range": null,
+        "sourceIds": [
+          "biosensors-biomatrix-alpha-brochure"
+        ]
+      },
+      "lengthRestrictions": [
+        {
+          "diameters": [
+            2.25
+          ],
+          "maxLength": 29,
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ]
+        },
+        {
+          "diameters": [
+            4
+          ],
+          "maxLength": 29,
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ]
+        }
+      ],
+      "strutThickness": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 84,
+          "unit": "µm",
+          "appliesToDiameters": [
+            2.25,
+            3
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "SV model; stated as 84 µm / 0.033 mm."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 88,
+          "unit": "µm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "MV model; stated as 88 µm / 0.035 mm."
+        }
+      ],
+      "strutCrossSection": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cross-section geometry not documented in the accessed sources."
+      },
+      "ringPattern": {
+        "status": "VERIFIED MANUFACTURER SPECIFICATION",
+        "value": "SV model (2.25–3.0 mm): 6 crowns; MV model (3.5–4.0 mm): 9 crowns",
+        "sourceIds": [
+          "biosensors-biomatrix-alpha-brochure"
+        ],
+        "notes": null
+      },
+      "cellGeometry": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Cell dimensions not documented in the accessed sources."
+      },
+      "connectorArrangement": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Not stated in the brochure panels."
+      },
+      "connectorsPerRing": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "count",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "Not stated in the brochure panels. BioMatrix Flex connector counts (Foin 2013) are not transferred."
+      },
+      "material": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Not stated in the brochure panels."
+      },
+      "nominalPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 8,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2.25,
+            4
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": null
+        }
+      ],
+      "ratedBurstPressure": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 16,
+          "unit": "atm",
+          "appliesToDiameters": [
+            2.25,
+            3
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "SV model."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 14,
+          "unit": "atm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": null,
+          "uncertainty": null,
+          "notes": "MV model."
+        }
+      ],
+      "maxExpansionDiameter": [
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 4.76,
+          "unit": "mm",
+          "appliesToDiameters": [
+            2.25,
+            3
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": "Max expansion, outer diameter (O.D.)",
+          "uncertainty": null,
+          "notes": "OUTER diameter (O.D.) as printed, SV model. Other records hold inner-diameter limits; the inner diameter is smaller by roughly twice the strut thickness, which is not calculated here."
+        },
+        {
+          "status": "VERIFIED MANUFACTURER SPECIFICATION",
+          "value": 5.95,
+          "unit": "mm",
+          "appliesToDiameters": [
+            3.5,
+            4
+          ],
+          "sourceIds": [
+            "biosensors-biomatrix-alpha-brochure"
+          ],
+          "conditions": "Max expansion, outer diameter (O.D.)",
+          "uncertainty": null,
+          "notes": "OUTER diameter (O.D.) as printed, MV model. Other records hold inner-diameter limits; the inner diameter is smaller by roughly twice the strut thickness, which is not calculated here."
+        }
+      ],
+      "materialProperties": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "sourceIds": [],
+        "notes": "Verified material property data (e.g. yield strength, elastic modulus for this device) not entered."
+      },
+      "radialStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "kPa",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "longitudinalStrength": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "N",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "recoil": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "foreshortening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "%",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "sideBranchCellOpening": {
+        "status": "DATA UNAVAILABLE",
+        "value": null,
+        "unit": "mm",
+        "appliesToDiameters": null,
+        "sourceIds": [],
+        "conditions": null,
+        "uncertainty": null,
+        "notes": "No device-specific measurement from an accessible source was entered in this registry version."
+      },
+      "benchTests": [],
+      "limitations": [
+        "Source is two photographed brochure panels, not the IFU; brochure date and document number unknown.",
+        "Max expansion is an outer diameter, so the sizing page compares an O.D. limit against the vessel diameter and slightly overstates reach compared with inner-diameter records."
+      ]
+    }
+  ]
+}

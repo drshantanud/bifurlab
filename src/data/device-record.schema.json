@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://bifurcation-lab.local/schema/device-record-1.0.0.json",
+  "title": "Bifurcation Lab device record",
+  "description": "Schema 1.0.0 for one stent platform record. Runtime validation (src/data/deviceSchema.ts) additionally checks that every cited source id exists and that sourced statuses cite at least one source.",
+  "type": "object",
+  "definitions": {
+    "status": { "enum": ["VERIFIED MANUFACTURER SPECIFICATION", "PUBLISHED BENCH MEASUREMENT", "DERIVED FROM VERIFIED DATA", "ILLUSTRATIVE ASSUMPTION", "DATA UNAVAILABLE"] },
+    "sourceIds": { "type": "array", "items": { "type": "string" } },
+    "evidenceNumber": {
+      "type": "object",
+      "required": ["status", "value", "unit", "sourceIds"],
+      "properties": {
+        "status": { "$ref": "#/definitions/status" },
+        "value": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+        "unit": { "type": "string" },
+        "appliesToDiameters": { "type": ["array", "null"], "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+        "sourceIds": { "$ref": "#/definitions/sourceIds" },
+        "conditions": { "type": ["string", "null"] },
+        "uncertainty": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "evidenceText": {
+      "type": "object",
+      "required": ["status", "value", "sourceIds"],
+      "properties": { "status": { "$ref": "#/definitions/status" }, "value": { "type": ["string", "null"] }, "sourceIds": { "$ref": "#/definitions/sourceIds" }, "notes": { "type": ["string", "null"] } }
+    },
+    "sizeList": {
+      "type": "object",
+      "required": ["status", "values", "range", "sourceIds"],
+      "properties": {
+        "status": { "$ref": "#/definitions/status" },
+        "values": { "type": ["array", "null"], "items": { "type": "number", "exclusiveMinimum": 0 } },
+        "range": { "type": ["array", "null"], "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+        "sourceIds": { "$ref": "#/definitions/sourceIds" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "sized": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/evidenceNumber" } }
+  },
+  "required": ["id", "recordVersion", "lastReviewed", "manufacturer", "family", "model", "generation", "diameters", "lengths", "lengthRestrictions", "strutThickness", "strutCrossSection", "ringPattern", "connectorArrangement", "connectorsPerRing", "cellGeometry", "material", "materialProperties", "nominalPressure", "ratedBurstPressure", "maxExpansionDiameter", "radialStrength", "longitudinalStrength", "recoil", "foreshortening", "sideBranchCellOpening", "benchTests", "limitations"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "recordVersion": { "type": "string" },
+    "lastReviewed": { "type": "string" },
+    "manufacturer": { "type": "string" },
+    "family": { "type": "string" },
+    "model": { "type": "string" },
+    "generation": { "type": "string" },
+    "isGeneric": { "type": "boolean" },
+    "diameters": { "$ref": "#/definitions/sizeList" },
+    "lengths": { "$ref": "#/definitions/sizeList" },
+    "lengthRestrictions": { "type": "array", "items": { "type": "object", "required": ["diameters", "sourceIds"], "properties": { "diameters": { "type": "array", "items": { "type": "number" } }, "minLength": { "type": "number" }, "maxLength": { "type": "number" }, "sourceIds": { "$ref": "#/definitions/sourceIds" } } } },
+    "strutThickness": { "$ref": "#/definitions/sized" },
+    "nominalPressure": { "$ref": "#/definitions/sized" },
+    "ratedBurstPressure": { "$ref": "#/definitions/sized" },
+    "maxExpansionDiameter": { "$ref": "#/definitions/sized" },
+    "minimalExpansion": { "type": "array", "items": { "$ref": "#/definitions/evidenceNumber" } },
+    "connectorsPerRing": { "$ref": "#/definitions/evidenceNumber" },
+    "radialStrength": { "$ref": "#/definitions/evidenceNumber" },
+    "longitudinalStrength": { "$ref": "#/definitions/evidenceNumber" },
+    "recoil": { "$ref": "#/definitions/evidenceNumber" },
+    "foreshortening": { "$ref": "#/definitions/evidenceNumber" },
+    "sideBranchCellOpening": { "$ref": "#/definitions/evidenceNumber" },
+    "strutCrossSection": { "$ref": "#/definitions/evidenceText" },
+    "ringPattern": { "$ref": "#/definitions/evidenceText" },
+    "connectorArrangement": { "$ref": "#/definitions/evidenceText" },
+    "cellGeometry": { "$ref": "#/definitions/evidenceText" },
+    "material": { "$ref": "#/definitions/evidenceText" },
+    "materialProperties": { "$ref": "#/definitions/evidenceText" },
+    "benchTests": { "type": "array", "items": { "type": "object", "required": ["status", "description", "sourceIds"], "properties": { "status": { "$ref": "#/definitions/status" }, "description": { "type": "string" }, "value": { "type": ["number", "null"] }, "unit": { "type": ["string", "null"] }, "testMethod": { "type": ["string", "null"] }, "conditions": { "type": ["string", "null"] }, "sourceIds": { "$ref": "#/definitions/sourceIds" } } } },
+    "limitations": { "type": "array", "items": { "type": "string" } }
+  }
+}
