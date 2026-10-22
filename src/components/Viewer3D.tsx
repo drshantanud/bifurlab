@@ -85,6 +85,8 @@ const easeInOut = (x: number) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x 
 const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
 /** Balloon inflation fraction at clock time t. */
 const inflation = (t: number) => easeInOut(clamp01(t / INFLATE_END));
+/** Local clock for one inflation of a sequence: the inflation window is split evenly between the steps. */
+const stepTime = (t: number, step?: { index: number; count: number }) => (step ? clamp01(clamp01(t / INFLATE_END) * step.count - step.index) * INFLATE_END : t);
 /** Struts start moving once the balloon has unfolded enough to touch them. */
 const strutFollow = (t: number) => easeInOut(clamp01((t / INFLATE_END - 0.18) / 0.82));
 
@@ -219,12 +221,12 @@ function BalloonMesh({ b, color, clock }: { b: Balloon; color: string; clock: Re
     caps.current.forEach((m) => m?.scale.setScalar(s));
   };
   useLayoutEffect(() => {
-    last.current = inflation(clock.current.t);
+    last.current = inflation(stepTime(clock.current.t, b.step));
     apply(last.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [built]);
   useFrame(() => {
-    const e = inflation(clock.current.t);
+    const e = inflation(stepTime(clock.current.t, b.step));
     if (e === last.current) return;
     last.current = e;
     apply(e);
@@ -265,8 +267,15 @@ function AnimDriver({ clock, hud, applied }: { clock: React.MutableRefObject<Ani
       return;
     }
     el.style.display = '';
-    const e = inflation(c.t);
-    const txt = applied.map((a) => `${a.label}: ${a.pressure == null ? 'pressure not set' : `${Math.round(a.pressure * e)} atm`}`).join('\n');
+    // In a sequence of inflations only the one currently inflating is read out.
+    const current = clamp01(c.t / INFLATE_END);
+    const shown = applied.filter((a) => !a.step || a.step.index === Math.min(a.step.count - 1, Math.floor(current * a.step.count)));
+    const txt = shown
+      .map((a) => {
+        const e = inflation(stepTime(c.t, a.step));
+        return `${a.label}: ${a.pressure == null ? 'pressure not set' : `${Math.round(a.pressure * e)} atm`}`;
+      })
+      .join('\n');
     if (el.textContent !== txt) el.textContent = txt;
   });
   return null;

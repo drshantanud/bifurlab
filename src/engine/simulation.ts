@@ -36,6 +36,7 @@ export interface AppliedBalloon {
   label: string;
   diameter: number;
   pressure: number | null;
+  step?: Balloon['step'];
 }
 
 export interface SimResult {
@@ -77,14 +78,41 @@ function mvBalloon(m: BifurcationModel, id: string, label: string, d: number, s0
   return makeBalloon(id, label, d, mvPath(m, s0, s1 - s0).polyline(0.25));
 }
 
-function balloonFor(key: BalloonKey, m: BifurcationModel, sc: Scenario): Balloon {
+/** Overlap (mm) between consecutive POT inflations; illustrative. */
+export const POT_OVERLAP = 1;
+
+/**
+ * POT balloon positions (MV arc-length ranges). The first inflation sits with its distal end at the carina (+ offset);
+ * further inflations step proximally, overlapping by POT_OVERLAP, until the proximal stent edge is covered.
+ * The last one is pulled back distally so it ends at the stent edge rather than beyond it.
+ */
+export function potPositions(m: BifurcationModel, p: Scenario['proc']): [number, number][] {
+  const end = m.xCarina + p.potOffset;
+  const edge = stentStartS(m);
+  const L = p.potLength;
+  const out: [number, number][] = [[end - L, end]];
+  while (out[out.length - 1][0] > edge + 1e-6 && out.length < 12) {
+    const e = out[out.length - 1][0] + POT_OVERLAP;
+    const s0 = Math.max(e - L, edge);
+    out.push([s0, s0 + L]);
+  }
+  return out;
+}
+
+function potBalloons(m: BifurcationModel, sc: Scenario): Balloon[] {
+  const p = sc.proc;
+  const pos = potPositions(m, p);
+  return pos.map(([s0, s1], i) => {
+    const label = `POT balloon ${p.potD.toFixed(2)} mm` + (pos.length > 1 ? ` (inflation ${i + 1}/${pos.length})` : '');
+    const b = mvBalloon(m, pos.length > 1 ? `pot-${i}` : 'pot', label, p.potD, s0, s1);
+    return pos.length > 1 ? { ...b, step: { index: i, count: pos.length } } : b;
+  });
+}
+
+function balloonFor(key: Exclude<BalloonKey, 'pot'>, m: BifurcationModel, sc: Scenario): Balloon {
   const p = sc.proc;
   const mid = (m.xHeel + m.xCarina) / 2;
   switch (key) {
-    case 'pot': {
-      const end = m.xCarina + p.potOffset;
-      return mvBalloon(m, 'pot', `POT balloon ${p.potD.toFixed(2)} mm`, p.potD, end - p.potLength, end);
-    }
     case 'mvCrush':
       return mvBalloon(m, 'crush', `Crush balloon ${p.mvBalloonD.toFixed(2)} mm`, p.mvBalloonD, mid - p.balloonLength / 2, mid + p.balloonLength / 2);
     case 'dmvOpen':
@@ -221,9 +249,9 @@ export function simulate(m: BifurcationModel, sc: Scenario, reg: LoadedRegistry,
       const lim = lookupSized(st.device.maxExpansionDiameter, st.choice.diameter);
       for (const b of balloons) {
         if (lim.value != null && b.diameter > lim.value + 1e-9)
-          warnings.push({
+          warnOnce(`lim-${st.key}-${stage}-${b.diameter}`, {
             level: 'warning',
-            message: `Stage ${stage + 1}: ${b.label} exceeds the documented expansion limit of ${lim.value} mm for a ${st.choice.diameter} mm ${st.device.model} (${st.label.toLowerCase()}).`,
+            message: `Stage ${stage + 1}: ${b.label.replace(/ \(inflation .*\)$/, '')} exceeds the documented expansion limit of ${lim.value} mm for a ${st.choice.diameter} mm ${st.device.model} (${st.label.toLowerCase()}).`,
             sourceIds: lim.sourceIds,
           });
       }
@@ -266,10 +294,12 @@ export function simulate(m: BifurcationModel, sc: Scenario, reg: LoadedRegistry,
         if (rbp.value == null)
           warnOnce(`norbp-${st.device.id}-${st.choice.diameter}`, { level: 'info', message: `No documented rated burst pressure for a ${st.choice.diameter} mm ${st.device.model} in this registry version.`, sourceIds: [] });
       } else if (a.kind === 'balloon') {
-        const b = balloonFor(a.balloon, m, sc);
-        contact([b], i, sc.proc.postDilPressure);
-        stageBalloons.push(b);
-        applied.push({ stage: i, label: b.label, diameter: b.diameter, pressure: sc.proc.postDilPressure });
+        // POT may need several sequential inflations to cover the whole proximal stent; each is applied in turn.
+        for (const b of a.balloon === 'pot' ? potBalloons(m, sc) : [balloonFor(a.balloon, m, sc)]) {
+          contact([b], i, sc.proc.postDilPressure);
+          stageBalloons.push(b);
+          applied.push({ stage: i, label: b.label, diameter: b.diameter, pressure: sc.proc.postDilPressure, step: b.step });
+        }
       } else if (a.kind === 'kiss') {
         const bs = kissingBalloons(m, sc);
         contact(bs, i, sc.proc.postDilPressure, undefined, (pos) => constrainKissingOverlap(m, pos, Math.hypot(bs[0].diameter, bs[1].diameter) / 2));
