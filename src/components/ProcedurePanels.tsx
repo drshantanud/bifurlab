@@ -1,11 +1,12 @@
 import type { Anatomy } from '../engine/anatomy';
-import { Fragment, useEffect, useState } from 'react';
+import { Fragment, useEffect, useMemo, useState } from 'react';
 import type { LoadedRegistry } from '../data/registry';
 import { diameterOptions, lengthOptions, lookupSized, strutThicknessForMesh, deviceLabel } from '../data/registry';
 import type { EvidenceNumber } from '../data/deviceSchema';
 import { TECHNIQUES, withTechnique, type Scenario, type StentChoice, type Technique, type ProcParams } from '../engine/scenario';
 import { allStages } from '../engine/proceduralSequence';
-import type { SimResult, SimWarning } from '../engine/simulation';
+import { POT_OVERLAP, potPositions, type SimResult, type SimWarning } from '../engine/simulation';
+import { buildBifurcation } from '../engine/bifurcationGeometry';
 import type { Metric } from '../engine/measurementEngine';
 import { fmt } from '../engine/report';
 import { EvidenceChip, NumberField, Panel, Section, Term } from './ui';
@@ -138,6 +139,7 @@ export function SetupRail({ sc, anatomy, reg, onChange, research, teaching }: { 
     <NumberField key={k} id={`proc-${k}`} label={label} unit={unit} value={p[k] as number} min={min} max={max} step={step} allowZero={allowZero} onCommit={(v) => set(k, v)} />
   );
   const optional = allStages(sc.technique, p).filter((s) => s.optional);
+  const potCount = useMemo(() => potPositions(buildBifurcation(anatomy), p).length, [anatomy, p]);
   return (
     <>
       <div className="rail-body">
@@ -167,10 +169,15 @@ export function SetupRail({ sc, anatomy, reg, onChange, research, teaching }: { 
         {sc.technique === 'provisional' && nf('cellOpenBalloonD', <Term k="cell opening" teaching={teaching}>Cell-opening balloon</Term>, 'mm', 1.0, 4)}
         {nf('balloonLength', 'Balloon length', 'mm', 6, 30, 1)}
       </Section>
-      <Section title={<Term k="POT" teaching={teaching}>POT</Term>} meta={`${p.potD} mm`}>
+      <Section title={<Term k="POT" teaching={teaching}>POT</Term>} meta={`${p.potD} mm${potCount > 1 ? ` × ${potCount}` : ''}`}>
         {nf('potD', 'POT balloon diameter', 'mm', 2, 6.5)}
         {nf('potLength', 'POT balloon length', 'mm', 4, 20, 1)}
         {nf('potOffset', 'Distal end vs carina (− proximal)', 'mm', -6, 3, 0.25, true)}
+        <div className="muted">
+          {potCount > 1
+            ? `${potCount} sequential inflations, stepping proximally from the carina with ${POT_OVERLAP} mm overlap, cover the whole proximal stent segment.`
+            : 'One inflation covers the whole proximal stent segment.'}
+        </div>
       </Section>
       <Section title={<Term k="kissing" teaching={teaching}>Kissing{sc.technique === 'dk-crush' || sc.technique === 'tap' ? ' and protrusion' : ''}</Term>}>
         {nf('kissOverlap', 'Proximal side-by-side overlap', 'mm', 0.5, 12, 0.5)}

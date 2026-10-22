@@ -2,7 +2,7 @@ import { EXAMPLE_ANATOMY } from '../engine/anatomy';
 import { buildBifurcation } from '../engine/bifurcationGeometry';
 import { BUILTIN_REGISTRY, loadRegistry } from '../data/registry';
 import { defaultScenario, ensureCoverage, withTechnique, TECHNIQUES, type Technique } from '../engine/scenario';
-import { simulate } from '../engine/simulation';
+import { simulate, potPositions, stentStartS } from '../engine/simulation';
 import { activeStages, allStages, SEQUENCES } from '../engine/proceduralSequence';
 import { computeMetrics } from '../engine/measurementEngine';
 import { isFiniteVec, dot } from '../engine/math';
@@ -132,5 +132,31 @@ describe('lesion coverage', () => {
     const e = ends(ensureCoverage(stale, a, reg), m2);
     expect(dot(e.culotteFirst, m2.d)).toBeGreaterThan(m2.lesions.sb[1]);
     expect(e.culotteSecond[0]).toBeGreaterThan(m2.lesions.dist[1]);
+  });
+});
+
+describe('POT coverage of the proximal stent', () => {
+  it.each([0, 6, 15, 30])('proximal lesion %s mm: sequential POT inflations cover from the carina back to the proximal stent edge', (lesionProx) => {
+    const a = { ...EXAMPLE_ANATOMY, lesionProx };
+    const mm = buildBifurcation(a);
+    const s = defaultScenario('a', 'A', a, reg, 'provisional', 'abbott-xience-skypoint');
+    const pos = potPositions(mm, s.proc);
+    expect(pos[0][1]).toBeCloseTo(mm.xCarina + s.proc.potOffset, 6);
+    const prox = Math.min(...pos.map((p) => p[0]));
+    if (pos.length > 1) expect(prox).toBeCloseTo(stentStartS(mm), 6);
+    else expect(prox).toBeLessThanOrEqual(stentStartS(mm));
+    for (let i = 1; i < pos.length; i++) expect(pos[i][1]).toBeGreaterThanOrEqual(pos[i - 1][0]);
+    for (const p of pos) expect(p[1] - p[0]).toBeCloseTo(s.proc.potLength, 6);
+    const r = simulate(mm, s, reg, SEQUENCES.provisional.findIndex((x) => x.id === 'pot'));
+    expect(r.activeBalloons.length).toBe(pos.length);
+    expect(r.applied.filter((x) => x.label.startsWith('POT')).length).toBe(pos.length);
+  });
+  it('a longer proximal lesion needs more POT inflations', () => {
+    const n = (lesionProx: number) => {
+      const a = { ...EXAMPLE_ANATOMY, lesionProx };
+      return potPositions(buildBifurcation(a), defaultScenario('a', 'A', a, reg, 'culotte', 'abbott-xience-skypoint').proc).length;
+    };
+    expect(n(30)).toBeGreaterThan(n(6));
+    expect(n(30)).toBeGreaterThanOrEqual(3);
   });
 });

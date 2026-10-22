@@ -14,6 +14,8 @@ export interface Balloon {
   axis: Vec3[];
   cum: number[];
   length: number;
+  /** Position in a series of sequential inflations of one balloon (e.g. repeated POT), if more than one. */
+  step?: { index: number; count: number };
 }
 
 export function makeBalloon(id: string, label: string, diameter: number, ctrlOrAxis: Vec3[], smooth = false): Balloon {
